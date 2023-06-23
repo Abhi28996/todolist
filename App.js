@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
 
   droidSafeArea: {
     flex: 1,
-    paddingTop: Platform.OS === 'android' ? 50 : 0,
+    paddingTop: Platform.OS === 'android' ? 30 : 0,
 
     backgroundColor: "#F0F0F0"
   },
